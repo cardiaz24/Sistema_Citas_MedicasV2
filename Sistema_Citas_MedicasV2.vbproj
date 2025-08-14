@@ -146,6 +146,12 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\Administracion.jpg" />
+    <Content Include="Images\Consultorio.jpg" />
+    <Content Include="Images\Contacto.jpg" />
+    <Content Include="Images\Doctores.jpg" />
+    <Content Include="Images\fondo.jpg" />
+    <Content Include="Images\Paciente.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -304,6 +310,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\Data\" />
+    <Folder Include="App_Code\Models\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
