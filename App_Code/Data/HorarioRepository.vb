@@ -1,9 +1,18 @@
 ﻿Imports System.Collections.Generic
 Imports System.Data
 Imports System.Data.SqlClient
+Imports System
 
 Public Class HorarioRepository
+    Friend ReadOnly Property GetByDoctor(v As Integer) As Object
+        Get
+            Throw New NotImplementedException()
+        End Get
+    End Property
 
+    Friend Sub Insert(horario As Horario)
+        Throw New NotImplementedException()
+    End Sub
 
     Public Class HorarioRepository
         Private ReadOnly db As New DatabaseHelper()
