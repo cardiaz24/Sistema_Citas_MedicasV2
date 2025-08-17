@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-md-6">
                 <p class="lead">
-                    Este sistema fue desarrollado como parte de un proyecto académico o institucional con el fin de ofrecer una solución práctica, moderna y funcional para la gestión de citas médicas.
+                    Este sistema fue desarrollado como parte de un proyecto académico con el fin de ofrecer una solución práctica, moderna y funcional para la gestión de citas médicas.
                 </p>
                 <p>
                     Su diseño modular permite a <strong>pacientes</strong>, <strong>doctores</strong> y <strong>administradores</strong> interactuar con el sistema según sus permisos:

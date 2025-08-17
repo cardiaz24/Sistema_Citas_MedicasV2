@@ -152,6 +152,8 @@
     <Content Include="Images\Doctores.jpg" />
     <Content Include="Images\fondo.jpg" />
     <Content Include="Images\Paciente.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="Registro.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -211,6 +213,19 @@
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\Models\Administrador.vb" />
+    <Content Include="App_Code\Models\Cita.vb" />
+    <Content Include="App_Code\Models\Doctor.vb" />
+    <Content Include="App_Code\Models\Horario.vb" />
+    <Content Include="App_Code\Models\Paciente.vb" />
+    <Compile Include="App_Code\Models\Persona.vb" />
+    <Compile Include="App_Code\DatabaseHelper.vb" />
+    <Content Include="App_Code\Data\AdministradorRepository.vb" />
+    <Content Include="App_Code\Data\CitaRepository.vb" />
+    <Content Include="App_Code\Data\DoctorRepository.vb" />
+    <Content Include="App_Code\Data\HorarioRepository.vb" />
+    <Content Include="App_Code\Data\PacienteRepositorio.vb" />
+    <Compile Include="App_Code\Models\Usuario.vb" />
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="About.aspx.designer.vb">
@@ -237,6 +252,13 @@
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -255,6 +277,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Registro.aspx.designer.vb">
+      <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.aspx.vb">
+      <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
@@ -310,8 +339,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Code\Data\" />
-    <Folder Include="App_Code\Models\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
