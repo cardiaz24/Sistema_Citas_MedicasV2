@@ -50,6 +50,60 @@ Partial Public Class Dashboard
     Protected WithEvents lblMsg As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Control txtEmailBusqueda.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtEmailBusqueda As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control btnBuscarPersona.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnBuscarPersona As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control pnlResultadoBusqueda.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents pnlResultadoBusqueda As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''Control lblPersonaInfo.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lblPersonaInfo As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control hdnPersonaId.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents hdnPersonaId As Global.System.Web.UI.WebControls.HiddenField
+
+    '''<summary>
+    '''Control btnRecargar.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnRecargar As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''Control gvDoctores.
     '''</summary>
     '''<remarks>

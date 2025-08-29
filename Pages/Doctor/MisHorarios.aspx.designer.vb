@@ -14,6 +14,15 @@ Option Explicit On
 Partial Public Class MisHorarios
 
     '''<summary>
+    '''Control lblMensaje.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lblMensaje As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''Control txtFecha.
     '''</summary>
     '''<remarks>
@@ -30,6 +39,15 @@ Partial Public Class MisHorarios
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btnAgregar As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control btnRecargar.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnRecargar As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''Control gvHorarios.

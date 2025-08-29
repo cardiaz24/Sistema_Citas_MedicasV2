@@ -24,5 +24,15 @@
     </main>
 </div>
 <a href="Registro.aspx">¿Primera vez que ingresa?</a>
-<asp:Label ID="lblError" runat="server" Text="" CssClass="alert alert-danger" Visible="false"></asp:Label>
+<asp:Label ID="lblError" runat="server" Text="" 
+    CssClass="alert alert-danger d-none" 
+    Visible="false" role="alert"></asp:Label>
+
+<script>
+    if (window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
+    }
+</script>
+
+
 </asp:Content>

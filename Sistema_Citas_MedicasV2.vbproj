@@ -224,11 +224,10 @@
     <Compile Include="App_Code\Models\Persona.vb" />
     <Compile Include="App_Code\DatabaseHelper.vb" />
     <Content Include="App_Code\Data\AdministradorRepository.vb" />
-    <Compile Include="App_Code\Data\CitaRepository.vb" />
+    <Content Include="App_Code\Data\CitaRepository.vb" />
     <Content Include="App_Code\Data\DoctorRepository.vb" />
-    <Compile Include="App_Code\Data\HorarioRepository.vb" />
+    <Content Include="App_Code\Data\HorarioRepository.vb" />
     <Content Include="App_Code\Data\PacienteRepositorio.vb" />
-    <Compile Include="App_Code\Models\Usuario.vb" />
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="About.aspx.designer.vb">
